@@ -2,7 +2,7 @@
   <header>
     <nav>
       <div>
-        <img src="/assets/postit.png" alt="postit">
+        <img src="../assets/postit.png" alt="postit">
       </div>
       <div>
         <div class="search-container">
@@ -11,7 +11,7 @@
       </div>
       <div id="user">
         <div class="dropdown">
-          <button @click="submit()" class="dropbtn"><img src="https://www.vhv.rs/dpng/d/436-4363443_view-user-icon-png-font-awesome-user-circle.png"></button>
+          <button @click.prevent="submit" class="dropbtn"><img src="https://www.vhv.rs/dpng/d/436-4363443_view-user-icon-png-font-awesome-user-circle.png"></button>
           <div id="myDropdown" class="dropdown-content">
             <a href="#">John Doe</a>
             <a href="#">john.doe@example.com</a>
@@ -26,7 +26,9 @@
 export default {
   name: "Header",
   methods: {
-    console:("test")
+    submit() {
+      this.$router.push("/posts")
+    }
   }
 
 }

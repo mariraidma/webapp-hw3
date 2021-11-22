@@ -1,7 +1,7 @@
 <template>
   <div class="footer-container">
     <div class="footer-text">
-      <a href="webdv-wa/contatcts.html">Contact us</a>
+      <router-link to="/contact">Contact us</router-link>
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
 .footer-container {
   height: 100px;
   width: 100%;
-  color: #1e90ff;
+  background-color: #1e90ff;
 }
 
 .footer-text a {

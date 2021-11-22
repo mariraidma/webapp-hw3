@@ -2,7 +2,7 @@
   <div class="container">
     <div class="login-flexbox">
       <h2 id="para1">Welcome to PostIt</h2>
-      <p class="login-text"><a href="webdv-wa/index.html">Create an account</a></p>
+      <p class="login-text"><a href="../webdv-wa/index.html">Create an account</a></p>
       <p>Or</p>
       <p>Please log In</p>
       <form>
@@ -15,12 +15,10 @@
         </label>
       </form>
       <br>
-      <a href="webdv-wa/index.html">
-        <button class="website-button" type="submit">Log In</button>
-      </a>
+      <button class="website-button" type="submit" @click="login">Log In</button>
       <p><a href="" target="_blank">Forgot Password?</a></p>
       <div class="postitimage">
-        <img src="images/postit.png" alt="PostIt logo" style="width:100px;height:100px;">
+        <img src="../assets/postit.png" alt="PostIt logo" style="width:100px;height:100px;">
       </div>
     </div>
   </div>
@@ -29,7 +27,11 @@
 <script>
 export default {
   name: "Login",
-
+  methods: {
+    login() {
+      this.$router.push("/post")
+    }
+  }
 
 }
 </script>
