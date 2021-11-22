@@ -2,7 +2,7 @@
   <header>
     <nav>
       <div>
-        <img src="/images/postit.png" alt="postit">
+        <img src="/assets/postit.png" alt="postit">
       </div>
       <div>
         <div class="search-container">
