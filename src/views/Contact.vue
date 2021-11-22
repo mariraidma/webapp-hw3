@@ -1,4 +1,5 @@
 <template>
+  <div></div>
   <div class="info">
     <p>Telephone: 5555555</p><br>
     <p>Mail: mail@mail.com</p><br>
