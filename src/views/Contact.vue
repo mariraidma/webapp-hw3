@@ -1,10 +1,11 @@
 <template>
-  <div></div>
+  <div>
   <div class="info">
     <p>Telephone: 5555555</p><br>
     <p>Mail: mail@mail.com</p><br>
     <p>Location: City</p><br>
     <p>Client service: 5555555</p>
+  </div>
   </div>
 </template>
 
@@ -20,7 +21,5 @@ export default {
   text-align: center;
   margin-top: 50px;
 }
-
-
 
 </style>

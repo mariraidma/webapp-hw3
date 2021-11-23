@@ -2,7 +2,7 @@
   <header>
     <nav>
       <div>
-        <img src="../assets/postit.png" alt="postit">
+        <router-link to="/"><img src="../assets/postit.png" alt="postit"></router-link>
       </div>
       <div>
         <div class="search-container">
@@ -27,8 +27,9 @@ export default {
   name: "Header",
   methods: {
     submit() {
-      this.$router.push("/posts")
+      this.$router.push("/")
     }
+
   }
 
 }
