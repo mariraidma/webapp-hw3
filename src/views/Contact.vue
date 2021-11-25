@@ -1,11 +1,10 @@
 <template>
-  <div>
   <div class="info">
-    <p>Telephone: 5555555</p><br>
-    <p>Mail: mail@mail.com</p><br>
-    <p>Location: City</p><br>
+    <h2>Contacts</h2>
+    <p>Telephone: 5555555</p>
+    <p>Mail: mail@mail.com</p>
+    <p>Location: City</p>
     <p>Client service: 5555555</p>
-  </div>
   </div>
 </template>
 
@@ -19,7 +18,8 @@ export default {
 
 .info {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
+  background-color: #f1f0f0;
 }
 
 </style>

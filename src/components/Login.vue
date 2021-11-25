@@ -37,7 +37,10 @@ export default {
 </script>
 
 <style scoped>
-body {background-color: #1e90ff;}
+body {
+  background-color: #1e90ff;
+}
+
 #para1 {
   font-family:"Times New Roman", serif;
   color: blue;
@@ -47,6 +50,7 @@ body {background-color: #1e90ff;}
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1e90ff;
 }
 
 .postitimage {
@@ -83,9 +87,10 @@ body {background-color: #1e90ff;}
   font-family:"Times New Roman", serif;
   background-color: DodgerBlue;
   color: White;
-  padding: 5px 30px;
+  padding: 5px;
   text-align: center;
   font-size: 15px;
+  height: 40px;
 }
 
 button:hover {

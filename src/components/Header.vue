@@ -29,9 +29,7 @@ export default {
     submit() {
       this.$router.push("/")
     }
-
   }
-
 }
 
 </script>

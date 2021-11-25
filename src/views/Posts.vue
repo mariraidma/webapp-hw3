@@ -1,13 +1,17 @@
 <template>
-  <p>test</p>
+  <div class="Posts">
+    <Post />
+  </div>
 </template>
 
 <script>
+import Post from "@/components/Post";
+
 export default {
-name: "Posts"
+name: "Posts",
+  components: {
+    Post
+  }
 }
+
 </script>
-
-<style scoped>
-
-</style>

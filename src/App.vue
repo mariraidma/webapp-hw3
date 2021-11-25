@@ -5,7 +5,8 @@
       <router-link to="/about">About</router-link>
     </div>-->
     <Header />
-    <router-view/>
+    <router-view />
+    <Posts />
     <Footer />
   </div>
 </template>
@@ -34,8 +35,9 @@
 </style>
 <script>
 import Header from "@/components/Header";
+import Posts from "@/views/Posts";
 import Footer from "@/components/Footer";
 export default {
-  components: {Footer, Header}
+  components: {Footer, Header, Posts}
 }
 </script>

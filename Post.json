@@ -1,0 +1,82 @@
+[
+  {
+    "user": "A",
+    "id": 1,
+    "body": "Beautiful sunset!",
+    "time": "Sep 10, 2021, 4:30",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "B",
+    "id": 2,
+    "body": "The purpouse of our lives is to be happy.",
+    "time": "Sep 10, 2021, 4:44",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "C",
+    "id": 3,
+    "body": "The best vacation ever after quarantine :)",
+    "time": "Sep 11, 2021, 12:00",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "D",
+    "id": 4,
+    "body": "This is a totally random post!",
+    "time": "Sep 11, 2021, 14:14",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "E",
+    "id": 5,
+    "body": "This one as well, but it is a bit different.",
+    "time": "Dec 1, 2021, 0:00",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "F",
+    "id": 6,
+    "body": "The last 2 posts are very random, did not leave a like!",
+    "time": "Dec 11, 2021, 4:01",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "G",
+    "id": 7,
+    "body": "Please like this post, trying to break a world record!",
+    "time": "Dec 14, 2021, 17.25",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "H",
+    "id": 8,
+    "body": "I liked a post which wanted to break a world record, hope we manage to do it!",
+    "time": "Dec 17, 2021, 11:51",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "I",
+    "id": 9,
+    "body": "I just recently started learning webdev.",
+    "time": "Dec 21, 2021, 1:00",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  },
+  {
+    "user": "J",
+    "id": 10,
+    "body": "This is the last post of the feed!",
+    "time": "Dec 30, 2021, 23:59",
+    "image": "https://ipt.imgix.net/204789/x/0/ultimate-guide-to-sunset-photography-27.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+    "likes": 0
+  }
+]

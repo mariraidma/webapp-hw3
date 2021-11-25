@@ -18,12 +18,16 @@ export default {
   height: 100px;
   width: 100%;
   background-color: #1e90ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .footer-text a {
-  text-align: center;
   font-size: 18px;
   color: white;
+
 }
 
 
