@@ -15,7 +15,7 @@
           </div>
           <div class="text">
             <p>{{post.text}}</p>
-            <img src="../assets/like.jpe"g v-on:click="LikeFunction(post.postid)" alt="like">
+            <img src="../assets/like.jpeg" v-on:click="LikeFunction(post.postid)" alt="like">
             <div>{{post.like}}</div>
           </div>
         </div>
